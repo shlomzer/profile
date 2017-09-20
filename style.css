@@ -1,0 +1,90 @@
+
+body {
+  background-color: #86A6DF;
+  color: #324E7B;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  line-height: 1;
+}
+
+
+h1 {
+  color: #324E7B;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #324E7B;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 22px;
+  line-height: 1;
+}
+
+h3 {
+  color: #324E7B;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+  line-height: 1;
+}
+
+a {
+  color: #5068A9;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #324E7B;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #F8F8F8;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.list-inline {
+    padding-left: 0;
+}
+
+.list-inline li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.movies {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+
+.btn-blue {
+    background-color: #5068A9;
+    color: #F8F8F8;
+    font-weight: 400;
+    padding: 8px;
+    border-radius: 8px;
+}
